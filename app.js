@@ -3,12 +3,13 @@ window.addEventListener('load', pageLoaded());
 function pageLoaded() {
     let long;
     let lat;
+    let boobs = 2;
     let temperatureDescription = document.querySelector(".temperature-description");
     let temperatureDegree = document.querySelector(".temperature-degree");
     let location = document.querySelector(".location");
     let dateTime = document.querySelector(".date-time");
 
-
+    boobs += 1;
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(success);
 
